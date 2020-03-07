@@ -32,6 +32,9 @@ const typeScriptConfig = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
+  rules: {
+    '@typescript-eslint/require-await': 'off',
+  },
   env: {
     node: false,
     browser: true,
