@@ -1,0 +1,39 @@
+{
+  "name": "@mrowa96/eslint-config-node",
+  "description": "Eslint configuration for Node.js based projects with TypeScript.",
+  "main": "dist/index.js",
+  "version": "1.0.0",
+  "author": "Paweł Mrowiec <work@pawel-mrowiec.pl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mrowa96/eslint-config-node.git"
+  },
+  "scripts": {
+    "prettier": "npx prettier -c \"*.{js,json,md}\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier"
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-typescript": "^7.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-prettier": "^3.1.2"
+  },
+  "devDependencies": {
+    "husky": "^4.2.3",
+    "prettier": "1.19.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
