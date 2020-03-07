@@ -2,7 +2,7 @@
   "name": "@mrowa96/eslint-config-node",
   "description": "Eslint configuration for Node.js based projects with TypeScript.",
   "main": "dist/index.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Paweł Mrowiec <work@pawel-mrowiec.pl>",
   "license": "MIT",
   "repository": {
